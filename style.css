@@ -1275,6 +1275,83 @@ footer {
   font-size: 1.02rem;
   margin-bottom: 14px;
 }
+/* =========================
+FOOTER SOCIAL ICONS
+========================= */
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 20px;
+}
+
+.footer-socials a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.footer-icon {
+  width: 58px;
+  height: 58px;
+  min-width: 58px;
+  border-radius: 50%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white !important;
+  transition: all 0.3s ease;
+}
+
+.footer-icon i {
+  color: white !important;
+  line-height: 1;
+}
+
+.instagram-icon {
+  background: radial-gradient(
+    circle at 30% 30%,
+    #feda75,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+}
+
+.facebook-icon {
+  background: #1877f2;
+}
+
+.footer-icon:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+.website-credit {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255,255,255,0.18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #f6d6b8;
+  font-size: 0.95rem;
+}
+
+.website-credit img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.35);
+}
+
+.website-credit strong {
+  color: #22d3d6;
+  letter-spacing: 0.5px;
+}
 
 @media (max-width: 1024px) {
   .gallery-grid {
