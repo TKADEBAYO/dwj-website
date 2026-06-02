@@ -1060,6 +1060,9 @@ footer {
   transform: scale(1.03);
   box-shadow: 0 14px 35px rgba(0,0,0,0.18);
 }
+.gallery-grid img {
+  cursor: pointer;
+}
 .feedback-section {
   margin-top: 70px;
   padding: 50px;
